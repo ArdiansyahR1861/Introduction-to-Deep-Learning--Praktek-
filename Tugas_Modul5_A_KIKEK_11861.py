@@ -4,8 +4,7 @@ import pickle
 from PIL import Image
 import os
 
-model_directory = r'D:\KAMPUS LIK OJO KESET\MESIN LERNING\Introduction to Deep Learning (Praktek)\Introduction to Deep Learning (Praktek)'
-model_path = os.path.join(model_directory, 'best_model.pkl')
+model_path ='best_model.pkl'
 
 
 if os.path.exists(model_path):
